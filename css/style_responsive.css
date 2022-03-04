@@ -1,0 +1,869 @@
+@charset "utf-8";
+/* portfolio name : consultancy */
+/* design by sanjib on 04.07.2016 */
+
+@media screen and (max-width : 320px) {
+/*.....................home page start........................*/
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+.header_wrapper .logo {
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.header_wrapper .main_nav {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main_nav .navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav.navbar-nav.sm-collapsible {
+    height: 325px;
+    overflow: auto;
+}
+.navbar-nav > li {
+    float: none;
+    margin: 0;
+    padding: 3px 0px;
+    width: 100%;
+	text-align:left;
+}
+.navbar-nav > li > a {
+    border-bottom: 0px solid transparent;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+	text-transform:uppercase;
+}
+.navbar-nav > li.active a {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav > li > a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+    padding: 10px 15px;
+	background:transparent;
+	text-transform:uppercase;
+}
+.navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-image: none;
+	color:#f6a42d;
+	background:#f7f7f7;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #f7f7f7;
+    border-color: #eeaf06;
+    color: #000;
+}
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #f6a42d ;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: -40px;
+    padding: 9px 10px;
+    position: relative;
+}
+.navbar-toggle .icon-bar {
+    background:#f6a42d ;
+    border-radius: 0px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_wrapper .carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*about-us section start*/
+.aboutus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.aboutus_box .aboutus_img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_img img {
+    margin:0px auto;
+    padding: 0;
+    width: auto;
+}
+.aboutus_box .aboutus_content {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_content h4 {
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/*about-us section end*/
+
+/*testimonials section start*/
+.testi_heading .heading_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.heading_left img {
+    margin:0px auto;
+    padding: 0;
+    width: auto;
+}
+.testi_heading .heading_right {
+    float: left;
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
+}
+.company_wrap .nav > li > a {
+    border: 1px solid #f78f20;
+    border-radius: 0;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    padding: 12px;
+    position: relative;
+}
+.tab-content ul li {
+    color: #636363;
+    float: left;
+    font-size: 14px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 8px 0;
+    width: 100%;
+}
+/*testimonials section end*/
+
+/*contact-us section start*/
+.contactus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+/*contact-us section end*/
+/*.....................home page start........................*/	
+
+/* ..........................about page start........................... */
+.box_top .top_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	text-align:center;
+}
+.box_top .top_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.top_right h6 {
+    color: #363947;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 10px 0px;
+    padding: 0;
+    text-align: center;
+}
+.box_bottom p {
+    color: #6e8089;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* ..........................about page end ........................... */
+
+/* ..........................resource page start ........................... */
+.resource_wrap .resource_box {
+    background: rgba(253, 194, 20, 0.4) none repeat scroll 0 0;
+    float: left;
+    margin: 20px 0;
+    padding: 30px;
+    width: 100%;
+}
+.resource_box .resource_top {
+    float: left;
+    height: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 100%;
+}
+.resource_top .resource_top_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+.resource_top .resource_top_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+/* ..........................resource page end ........................... */
+}
+
+@media screen and (min-width: 321px) and (max-width: 479px) { 
+/*.....................home page start........................*/
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+.header_wrapper .logo {
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.header_wrapper .main_nav {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main_nav .navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav.navbar-nav.sm-collapsible {
+    height: 325px;
+    overflow: auto;
+}
+.navbar-nav > li {
+    float: none;
+    margin: 0;
+    padding: 3px 0px;
+    width: 100%;
+	text-align:left;
+}
+.navbar-nav > li > a {
+    border-bottom: 0px solid transparent;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+	text-transform:uppercase;
+}
+.navbar-nav > li.active a {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav > li > a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+    padding: 10px 15px;
+	background:transparent;
+	text-transform:uppercase;
+}
+.navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-image: none;
+	color:#f6a42d;
+	background:#f7f7f7;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #f7f7f7;
+    border-color: #eeaf06;
+    color: #000;
+}
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #f6a42d ;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: -40px;
+    padding: 9px 10px;
+    position: relative;
+}
+.navbar-toggle .icon-bar {
+    background:#f6a42d ;
+    border-radius: 0px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_wrapper .carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*about-us section start*/
+.aboutus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.aboutus_box .aboutus_img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_img img {
+    margin:0px auto;
+    padding: 0;
+    width: auto;
+}
+.aboutus_box .aboutus_content {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_content h4 {
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/*about-us section end*/
+
+/*testimonials section start*/
+.testi_heading .heading_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.heading_left img {
+    margin:0px auto;
+    padding: 0;
+    width: auto;
+}
+.testi_heading .heading_right {
+    float: left;
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
+}
+.company_wrap .nav > li > a {
+    border: 1px solid #f78f20;
+    border-radius: 0;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    padding: 12px;
+    position: relative;
+}
+.tab-content ul li {
+    color: #636363;
+    float: left;
+    font-size: 14px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 8px 0;
+    width: 100%;
+}
+/*testimonials section end*/
+
+/*contact-us section start*/
+.contactus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+/*contact-us section end*/
+/*.....................home page start........................*/
+
+/* ..........................about page start........................... */
+.box_top .top_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	text-align:center;
+}
+.box_top .top_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.top_right h6 {
+    color: #363947;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 10px 0px;
+    padding: 0;
+    text-align: center;
+}
+.box_bottom p {
+    color: #6e8089;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* ..........................about page end ........................... */
+
+/* ..........................resource page start ........................... */
+.resource_wrap .resource_box {
+    background: rgba(253, 194, 20, 0.4) none repeat scroll 0 0;
+    float: left;
+    margin: 20px 0;
+    padding: 30px;
+    width: 100%;
+}
+.resource_box .resource_top {
+    float: left;
+    height: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 100%;
+}
+.resource_top .resource_top_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+.resource_top .resource_top_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+/* ..........................resource page end ........................... */
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) { 
+/*.....................home page start........................*/
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+}
+.header_wrapper .logo {
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.header_wrapper .main_nav {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main_nav .navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav.navbar-nav.sm-collapsible {
+    height: 325px;
+    overflow: auto;
+}
+.navbar-nav > li {
+    float: none;
+    margin: 0;
+    padding: 3px 0px;
+    width: 100%;
+	text-align:left;
+}
+.navbar-nav > li > a {
+    border-bottom: 0px solid transparent;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+	text-transform:uppercase;
+}
+.navbar-nav > li.active a {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav > li > a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+    padding: 10px 15px;
+	background:transparent;
+	text-transform:uppercase;
+}
+.navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-image: none;
+	color:#f6a42d;
+	background:#f7f7f7;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #f7f7f7;
+    border-color: #eeaf06;
+    color: #000;
+}
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #f6a42d ;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: -40px;
+    padding: 9px 10px;
+    position: relative;
+}
+.navbar-toggle .icon-bar {
+    background:#f6a42d ;
+    border-radius: 0px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_wrapper .carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*about-us section start*/
+.aboutus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.aboutus_box .aboutus_img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_img img {
+    margin:0px auto;
+    padding: 0;
+    width: auto;
+}
+.aboutus_box .aboutus_content {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_content h4 {
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/*about-us section end*/
+
+/*testimonials section start*/
+.testi_heading .heading_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.heading_left img {
+    margin:0px auto;
+    padding: 0;
+    width: auto;
+}
+.testi_heading .heading_right {
+    float: left;
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
+}
+.company_wrap .nav > li > a {
+    border: 1px solid #f78f20;
+    border-radius: 0;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    padding: 12px;
+    position: relative;
+}
+.tab-content ul li {
+    color: #636363;
+    float: left;
+    font-size: 14px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 8px 0;
+    width: 100%;
+}
+/*testimonials section end*/
+
+/*contact-us section start*/
+.contactus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+/*contact-us section end*/
+/*.....................home page start........................*/
+
+/* ..........................about page start........................... */
+.box_top .top_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	text-align:center;
+}
+.box_top .top_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.top_right h6 {
+    color: #363947;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 10px 0px;
+    padding: 0;
+    text-align: center;
+}
+.box_bottom p {
+    color: #6e8089;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* ..........................about page end ........................... */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+/*.....................home page start........................*/
+/*top-header section start*/
+.top_left ul li {
+    color: #989798;
+    float: left;
+    font-size: 14px;
+    list-style: outside none none;
+    margin-right: 15px;
+    padding: 0;
+}
+/*top-header section end*/
+
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 43%;
+}
+.navbar-nav > li > a {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 10px;
+    text-transform: uppercase;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_wrapper .carousel-caption {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 30%;
+    display: block;
+    left: 10%;
+    padding: 20px;
+    right: 0;
+    width: 60%;
+}
+/*banner section end*/
+
+/*about section start*/
+.aboutus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 70%;
+}
+.aboutus_box .aboutus_img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_img img {
+    margin: 0px auto;
+    padding: 0;
+    width: auto;
+}
+.aboutus_box .aboutus_content {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.aboutus_content h4 {
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.aboutus_content p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+/*about section end*/
+
+/*news section start*/
+.news_content h4 {
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    color: #424242;
+    font-size: 24px;
+    line-height: 30px;
+    margin: -45px 20px 0;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+}
+/*news section end*/
+
+/*contact-us section start*/
+.contactus_wrapper p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.form_box .form-group {
+    margin-bottom: 15px;
+}
+/*contact-us section end*/
+/*.....................home page end........................*/
+
+/* ..........................about page start ........................... */
+.why_wrap .why_box {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    height: 300px;
+    margin: 15px 0;
+    padding: 30px;
+    width: 100%;
+}
+/* ..........................about page end ........................... */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+/*.....................home page start........................*/
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 38%;
+}
+/*eader section end*/
+
+/*.....................home page end........................*/
+
+/* ..........................about page start ........................... */
+.why_wrap .why_box {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    height: 240px;
+    margin: 15px 0;
+    padding: 30px;
+    width: 100%;
+}
+/* ..........................about page end ........................... */
+}
