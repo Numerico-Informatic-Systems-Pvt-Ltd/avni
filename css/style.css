@@ -355,16 +355,55 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 }
 .aboutus_content p {
     color: #000;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 30px;
     margin: 0 ;
     padding: 0;
     text-align: left;
 	width:100%;
 }
+.aboutus_content ul li
+{   color: #000;
+    font-size: 18px;
+    line-height: 30px;}
+	
+.aboutus_content h4
+{color: #f6a42d;
+font-size: 20px;
+line-height:26px;
+margin: 0 0 10px;
+padding: 0;
+}	
 /*about section end*/
 
 /*service section start*/
+.services_content{
+border: 1px solid #000;
+padding: 10px;
+text-align: center;
+background: #fff;
+border-radius: 30px;	
+	}
+	.services_content p{ 
+	text-align: center;
+font-size: 18px;
+	}
+.services_wrapper h3
+{color: #000;
+font-size: 36px;
+line-height:26px;
+margin: 0 0 10px;
+padding: 0;
+text-align:center;
+}
+.services_wrapper h5
+{color: #fff;
+font-size: 28px;
+line-height:26px;
+margin: 0 0 10px;
+padding: 0;
+text-align:center;
+}
 .services_wrapper{
 	width:100%;
 	padding:50px 0px;
@@ -383,7 +422,7 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 	width:100%;
 	padding:0px;
 	margin:0px auto;
-	float:left;
+
 }
 .services_content h4{
 	font-size:20px;
@@ -394,12 +433,11 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 	line-height:36px;
 }
 .services_content p{
-	font-size:14px;
+	font-size:18px;
 	padding:0px;
-	margin:0px 0px 10px;
-	text-align:left;
+	text-align: center;
 	color:#000;	
-	line-height:22px;
+	line-height: 50px;
 }
 .services_content a{
 	font-size:14px;
@@ -612,7 +650,18 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 	margin-right:10px;	
 }
 /*testimonials section end*/
-
+.service_text ul{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+	list-style-type: none;
+}
+.service_text ul li i {
+  color: #f78f20;
+  font-size: 18px;
+  margin-right: 10px;
+}
 /*news section start*/
 .news_wrapper{
 	width:100%;
@@ -824,6 +873,12 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 /* ...................... index page end......................... */
 
 /* ...................... about-us page start......................... */
+
+.about_box .service_text {
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 49px;
+}
 .about_wrappers{
 	width:100%;
 	padding:0px;
@@ -855,7 +910,7 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 }
 .box_left p {
     color: #5b6871;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0px 0px 10px;
     padding: 0;
     text-align: left;
@@ -1027,7 +1082,7 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 	padding:80px 0px;
 	margin:0px;
 	float:left;
-	background:url(../images/img/about/about_back2.jpg) no-repeat top left;
+	background: url(../images/about_back2.jpg) no-repeat top left;
 	background-size:cover;
 	background-attachment:fixed;	
 }
@@ -1092,13 +1147,16 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 	padding:0px;
 	margin:25px 0px;
 	float:left;	
+	font-size: 18px;
+line-height: 40px;
 }
 .service_text h3{
-	font-size:20px;
+	font-size:31px;
 	margin:0px 0px 10px;
 	padding:0px;
 	color:#fdc214;
 	line-height:30px;
+	margin-bottom: 30px;
 }
 .service_text p{
 	font-size:14px;
@@ -1731,14 +1789,16 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 }
 .contact_detail h6 {
     color: #f6a42d;
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 30px;
     padding: 0;
 	line-height:32px;
+	border-bottom: 2px dashed #f6a42d;
+padding-bottom: 13px;
 }
 .contact_detail p {
     color: #373737;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 24px;
     text-align: left;
 	padding:0px;
@@ -1758,12 +1818,12 @@ h1, h2, h3, h4, h5, h6, p{ padding:0px; margin:0px;}
 	width:100%;	
 }
 .contact_detail .list li i{
-	font-size:16px;
+	font-size:20px;
 	color:#fbc102;	
 	margin-right:10px;
 }
 .contact_detail .list li a{
-	font-size:14px;
+	font-size:25px;
 	color:#373737;	
 }
 .contact_detail .list li a:hover{
